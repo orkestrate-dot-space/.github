@@ -12,7 +12,8 @@ agent-webmcp tells it which ones before it opens them, and the browser
 driver it already uses does the rest. CLI and MCP server, MIT.
 
 ```console
-$ npm i -g @orkestrate/agent-webmcp
+$ curl -fsSL https://web.orkestrate.space/webmcp/install | bash   # Linux, macOS
+$ npm i -g @orkestrate/agent-webmcp                               # any OS
 $ agent-webmcp setup
 ```
 
